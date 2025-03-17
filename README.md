@@ -17,11 +17,12 @@ Choose either Conda or pip:
 🔹 Using Conda
 
 ```conda env create -f environment.yml
-conda activate phrase-matcher```
+conda activate phrase-matcher
+```
 
 🔹 Using pip (if not using Conda)
 
-``` pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 
 3️⃣ Download the Pre-trained Word2Vec Model
@@ -70,7 +71,6 @@ word-embeddings-app
  ├──  requirements.txt                  # Required Python libraries (.txt)
  ├──  environment.yml                    # Conda environment file ➡️ (Bonus I)
  ├──  README.md                          # Documentation (.md) ➡️ (Bonus II)
-
 ```
 
 
