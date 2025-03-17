@@ -48,7 +48,7 @@ or
 🔹 Enter a phrase and get the closest match from the dataset.
 
 ```
- word-embeddings-app
+word-embeddings-app
  ├──  data
  │    ├── phrases.csv                # Input file containing phrases (.csv)
  │    ├── phrase_vectors.pkl          # Pickled phrase embeddings (.pkl)
