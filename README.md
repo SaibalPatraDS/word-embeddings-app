@@ -88,3 +88,10 @@ Can be scheduled to run at fixed intervals (e.g., via cron jobs).
 `test_embeddings.py` → Tests word embedding functions.
 
 Ensures correctness of functions before deployment.
+
+## Testing `app_2.0.py`
+
+Command : `python app_2.0.py` 
+
+Output Sample : 
+![Output Sample](https://github.com/user-attachments/assets/a018c452-a6f7-439f-8319-a3d93b80ba94)
