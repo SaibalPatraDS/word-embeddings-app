@@ -1,5 +1,52 @@
 # word-embeddings-app
 
+## Step-by-Step Guide to Using This Repo
+
+
+1️⃣ Clone the Repository
+
+```
+git clone https://github.com/SaibalPatraDS/word-embeddings-app.git
+cd word-embeddings-app
+```
+
+2️⃣ Set Up the Environment
+
+Choose either Conda or pip:
+
+🔹 Using Conda
+
+```conda env create -f environment.yml
+conda activate phrase-matcher```
+
+🔹 Using pip (if not using Conda)
+
+``` pip install -r requirements.txt```
+
+
+3️⃣ Download the Pre-trained Word2Vec Model
+
+Make sure `GoogleNews-vectors-negative300.bin` is inside the data/ folder.
+If not, download it from [text](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) and place it there.
+
+4️⃣ Preprocess the Data (Optional)
+
+If you want to clean phrases.csv (remove duplicates, stopwords):
+
+``` python src/data_preprocessing.py ```
+
+5️⃣ Run the Phrase Matching CLI
+
+Test the phrase matching system using the command-line interface:
+
+```python app.py```
+
+or 
+
+```python app_2.0.py```
+
+🔹 Enter a phrase and get the closest match from the dataset.
+
 ```
  word-embeddings-app
  ├──  data
