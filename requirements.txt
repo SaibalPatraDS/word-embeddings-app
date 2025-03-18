@@ -1,0 +1,13 @@
+python==3.11  
+fastapi  
+uvicorn  
+gensim  
+numpy  
+pandas  
+scikit-learn  
+nltk  
+fuzzywuzzy  
+python-levenshtein  
+jinja2  
+pytest  
+gunicorn  
