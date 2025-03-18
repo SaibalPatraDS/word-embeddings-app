@@ -10,4 +10,3 @@ fuzzywuzzy
 python-levenshtein  
 jinja2  
 pytest  
-gunicorn  
