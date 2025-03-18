@@ -16,7 +16,8 @@ Choose either Conda or pip:
 
 🔹 Using Conda
 
-```conda env create -f environment.yml
+```
+conda env create -f environment.yml
 conda activate phrase-matcher
 ```
 
