@@ -15,4 +15,3 @@ dependencies:
   - python-levenshtein
   - jinja2
   - pytest
-  - gunicorn
